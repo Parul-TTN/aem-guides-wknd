@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-04-23T18:48:39.233+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Component Basics"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <helloworld
+                    jcr:created="{Date}2020-04-23T18:24:43.730+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-23T18:48:39.232+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/helloworld"
+                    greeting="Good Morning World,"
+                    text=" This is Helloworld Component"/>
+                <helloworld_194953173
+                    jcr:created="{Date}2020-04-23T18:30:08.453+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-23T18:30:22.732+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/helloworld"
+                    text="Hello world component 2"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
